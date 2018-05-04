@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="174.5" cy="61.5" rx="30" ry="30"/>
+	<text x="167.5" y="67.5" font-family="Times New Roman" font-size="20">\e</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="268.5" cy="61.5" rx="30" ry="30"/>
+	<text x="265.5" y="67.5" font-family="Times New Roman" font-size="20">[</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="76.5" cy="61.5" rx="30" ry="30"/>
+	<text x="65.5" y="67.5" font-family="Times New Roman" font-size="20">*+</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="361.5" cy="61.5" rx="30" ry="30"/>
+	<text x="353.5" y="67.5" font-family="Times New Roman" font-size="20">\d</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="466.5" cy="61.5" rx="30" ry="30"/>
+	<text x="463.5" y="67.5" font-family="Times New Roman" font-size="20">;</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="575.5" cy="61.5" rx="30" ry="30"/>
+	<text x="567.5" y="67.5" font-family="Times New Roman" font-size="20">\d</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="684.5" cy="61.5" rx="30" ry="30"/>
+	<text x="676.5" y="67.5" font-family="Times New Roman" font-size="20">f</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="686.5" cy="195.5" rx="30" ry="30"/>
+	<text x="675.5" y="201.5" font-family="Times New Roman" font-size="20">*+</text>
+	<polygon stroke="black" stroke-width="1" points="204.5,61.5 238.5,61.5"/>
+	<polygon fill="black" stroke-width="1" points="238.5,61.5 230.5,56.5 230.5,66.5"/>
+	<polygon stroke="black" stroke-width="1" points="106.5,61.5 144.5,61.5"/>
+	<polygon fill="black" stroke-width="1" points="144.5,61.5 136.5,56.5 136.5,66.5"/>
+	<polygon stroke="black" stroke-width="1" points="298.5,61.5 331.5,61.5"/>
+	<polygon fill="black" stroke-width="1" points="331.5,61.5 323.5,56.5 323.5,66.5"/>
+	<polygon stroke="black" stroke-width="1" points="391.5,61.5 436.5,61.5"/>
+	<polygon fill="black" stroke-width="1" points="436.5,61.5 428.5,56.5 428.5,66.5"/>
+	<polygon stroke="black" stroke-width="1" points="496.5,61.5 545.5,61.5"/>
+	<polygon fill="black" stroke-width="1" points="545.5,61.5 537.5,56.5 537.5,66.5"/>
+	<polygon stroke="black" stroke-width="1" points="605.5,61.5 654.5,61.5"/>
+	<polygon fill="black" stroke-width="1" points="654.5,61.5 646.5,56.5 646.5,66.5"/>
+	<path stroke="black" stroke-width="1" fill="none" d="M 657.759,204.09 A 616.671,616.671 0 0 1 98.995,81.345"/>
+	<polygon fill="black" stroke-width="1" points="657.759,204.09 648.726,201.37 651.356,211.018"/>
+	<text x="155.5" y="243.5" font-family="Times New Roman" font-size="20">Any Character bypasses escape</text>
+</svg>

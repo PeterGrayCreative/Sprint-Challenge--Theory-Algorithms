@@ -11,6 +11,7 @@ both `antelope` and `antelopes`.)
     
     antelopes rock out
 
+    ```/antelopes? rocks? out/```
 * Regex that matches either of:
 
     goat
@@ -20,6 +21,8 @@ both `antelope` and `antelopes`.)
   but not:
 
     boat
+
+  ```/[^b]oat/```
 
 * Regex that matches dates in YYYY-MM-DD format. (Year can be 1-4 digits, and
   month and day can each be 1-2 digits). This does not need to verify the date
@@ -33,6 +36,7 @@ both `antelope` and `antelopes`.)
   
   812-2-10
 
+  ```(\d+)-(\d+)-(\d+)```
 ## State Machines
 
 > A useful tool for drawing state machines is [Evan's FSM
@@ -40,6 +44,8 @@ both `antelope` and `antelopes`.)
 
 * Draw a state machine that corresponds to the following regex:
 
+[Regex FSM](./fsm1.svg)
+      
       ab*c+d?[ef]
 
   Remember the ε transition can be used to move between states without
@@ -49,6 +55,8 @@ both `antelope` and `antelopes`.)
   machine diagram for the lion and label the transition events that
   cause state transitions.
 
+[Lion FSM](./lionfsm.svg)
+
 * The VT-100 terminal (console) outputs text to the screen as it
   receives it over the wire. One exception is that when it receives an
   ESC character (ASCII 27), it goes into a special mode where it looks
@@ -56,9 +64,13 @@ both `antelope` and `antelopes`.)
 
       ESC[12;45f
 
+      ```/\e[[]\d+[;]\d+[f]/```
+
   moves the cursor to line 12, column 45.
 
       ESC[1m
+
+      ```\e[[]1[m]```
 
   changes the font to bold.
 
@@ -67,8 +79,12 @@ both `antelope` and `antelopes`.)
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
     a single character which can be represented with `\e` in the regex.)
 
+
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
+
+[ESC1 FSM](./esc1.svg)
+[ESC2 FSM](./esc2.svg)
 
 > If you're curious, [here are all the VT-100 escape
 > sequences](http://ascii-table.com/ansi-escape-sequences-vt-100.php).
